@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contianer{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    flex: 1;
+    background:url(https://images.unsplash.com/photo-1567958451986-2de427a4a0be?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxfHxyZXRhaWwlMkMlMjBzaG9wcGluZ3xlbnwwfHx8fDE2OTU3NjU4NzF8MA&ixlib=rb-4.0.3&auto=format&fit=crop&w=861&h=1018);
+    background-size: cover  ;
+}
+span{
+    background-color: rgba(223, 223, 223, 0.614);
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 25, 64);
+    padding: 30px 100px 30px 20px;
+    position: relative;
+    top: 30%;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    /* text-align: center; */
+    padding: 2% 5%;
+    gap: 20px;
+    /* background-color: rgb(180, 139, 166); */
+}
+label,p{
+    font-size: large;
+}
+.right img{
+    width: 150px;
+    height: 50px;
+}
+.right img,h2,p{
+    align-self: center;
+}
+
+.input input{
+    height: 40px;
+    width: 100%;
+    font-style: italic;
+    padding-left: 10px;
+    
+}
+button{
+    padding: 10px ;
+    background-color:rgb(255, 25, 64);
+    color: white;
+    border: none;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+#text{
+    color: red;
+}
